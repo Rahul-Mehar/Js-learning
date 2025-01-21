@@ -49,5 +49,46 @@ console.log("hello world");
 
 }
 
+// myFunction();
+
+
+
+
+
+
+// ************* Memory ***********
+
+//  Stack , Heap
+// stack allways used in primitive type 
+// heap allways used in non-primitive type
+
+
+let myYoutubename = "Rahulmehardotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+
+// console.log(anothername);// chaiaurcode
+// console.log(myYoutubename);// Rahulmehardotcom
+// both above one is primitive data type that by its in stack memory
+
+
+
+
+// both below one is non-perimitive type that by its in heap memory
+let userOne = {
+    email: "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "rahulmehar@gmail.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
 
 
