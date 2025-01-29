@@ -1,13 +1,11 @@
 
-
-
 // const tinderUser = new Object()
 
 const tinderUser = {}
 
 tinderUser.id = "123abc"
 tinderUser.name = "Rahul"
-tinderUser.isloggedin = "falsec"
+tinderUser.isloggedIn = "false"
 
 //  console.log(tinderUser);
 
@@ -23,21 +21,33 @@ tinderUser.isloggedin = "falsec"
  }
 
 //  console.log(regularUser);
-//  console.log(regularUser.fullname.userfullname.firstname);
+/*{
+  email: 'rahul@gmail.com',
+  fullname: { userfullname: { firstname: 'Rahul', lastname: 'Mehar' } }
+}*/
+
+
+//  console.log(regularUser.fullname.userfullname.firstname);//Rahul here we acess object inside object so that is the way to access object inside object
+
+
+
+
+// console.log(Object.keys(regularUser.fullname.userfullname));// [ 'firstname', 'lastname' ] by using this method we check here property inside the object
+
 
 
 const obj1 = {1: "a", 2:"b"}
 const obj2 = {3: "a", 4:"b"}
 const obj4 = {5: "a", 6:"b"}
 
-// const obj3 = {...obj1, ...obj2, ...obj4}
-// const obj3 = {obj1, obj2}
+// const obj3 = {...obj1, ...obj2, ...obj4} // here we merge the all object in a single object 
+// const obj3 = {obj1, obj2} 
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
 // console.log(obj3);
 
 
-const users = [
+const Users = [
      {
         id: 1,
         email: "rahul@gmail.com"
@@ -56,8 +66,16 @@ const users = [
      }
     ]
 
-    users[1].email
+   //  console.log(Users[0].email);// here we acess 1 object in the object 
 
+   // console.log(tinderUser);
+   // console.log(Object.keys(tinderUser));//[ 'id', 'name', 'isloggedin' ] object data type is array 
+   // console.log(Object.values(tinderUser));//[ '123abc', 'Rahul', 'false' ] this is also in array type
+   //console.log(Object.entries(tinderUser));// [ [ 'id', '123abc' ], [ 'name', 'Rahul' ], [ 'isloggedin', 'false' ] ] when we use entries method than its shows every single key and value in the form of array 
+   
+
+   // console.log(tinderUser.hasOwnProperty('isloggedIn'))// true by using this method we check the poperty in the object that why its shows in boolean type 
+   
 
 
 
