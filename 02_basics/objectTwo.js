@@ -68,76 +68,46 @@ const Users = [
 
    //  console.log(Users[0].email);// here we acess 1 object in the object 
 
+
    // console.log(tinderUser);
-   // console.log(Object.keys(tinderUser));//[ 'id', 'name', 'isloggedin' ] object data type is array 
+
+
+   // console.log(Object.keys(tinderUser));//[ 'id', 'name', 'isloggedin' ] object data type is array
+   
+   
+
    // console.log(Object.values(tinderUser));//[ '123abc', 'Rahul', 'false' ] this is also in array type
+
+
+
    //console.log(Object.entries(tinderUser));// [ [ 'id', '123abc' ], [ 'name', 'Rahul' ], [ 'isloggedin', 'false' ] ] when we use entries method than its shows every single key and value in the form of array 
    
 
    // console.log(tinderUser.hasOwnProperty('isloggedIn'))// true by using this method we check the poperty in the object that why its shows in boolean type 
+
+   // destructuring in object
+
+   const course = {
+      courseName: "Js in hindi",
+      price: "999",
+      courseInstructor: "hitesh"
+   }
+
+   // console.log(course.courseInstructor);//hitesh 
+
+   // const {courseInstructor : instructor} = course
    
+   // console.log(instructor);// hitesh this is destructuring of object 
+   
+   // {
+   //    "name": "hitesh",
+   //    "coursename": "js in hindi",
+   //    "price": "Free"
+   // }
+   // this is in json formate
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
+   
 
 
 
