@@ -106,6 +106,18 @@ const Users = [
    // }
    // this is in json formate
 
+
+   // [
+   //    {},
+   //    {},
+   //    {},
+   //    {},
+   //    {}
+   // ]
+
+   // all api now is in json formate
+   
+
    
    
 
