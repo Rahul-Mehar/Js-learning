@@ -54,17 +54,21 @@ if (true){
 
 //****interesting****
 
-function addone(num){
-    return num + 1
-}
-// addone(5) 
+
+// console.log(addone(5));// 6 beacuse of hosting
 
 
+// function addone(num){
+//     return num + 1
+// }
+// addone(5)  
 
+
+console.log(addTwo(5));// error because of hosting we can't be access without declration i mean here we hold a function in a veriable that why.
 const addTwo =  function(num){
     return num + 2
 }
-addTwo(5)
+// addTwo(5)
 
 
 
