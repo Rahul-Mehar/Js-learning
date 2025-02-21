@@ -4,10 +4,10 @@
 // console.log(typeof (score));
 
 
-// here string is conveting in number datatype
+// here string is converting in number datatype
 // let score = "33";
 // let valueInNumber = Number(score)
-// console.log(typeof valueInNumber);
+// console.log(typeof valueInNumber); 
 
 
 // let score = "33abc";
@@ -46,7 +46,7 @@
 
 // let value = 3
 // let negValue = -value
-// console.log(negValue);
+// console.log(negValue);// -3 
 
 // console.log(2+2);
 // console.log(2-2);
@@ -73,15 +73,32 @@
 // console.log(+"");// 0 
 // console.log(true+) // not allowed error 
 
-let num1, num2, num3 
+// let num1, num2, num3 
 
-num1 = num2 = num3 = 2+2
+// num1 = num2 = num3 = 2+2
 
-let gamecounter = 100
-gamecounter++;// here ++ is presidance operator
-console.log(gamecounter);
-
-
+// let gamecounter = 100
+// gamecounter++;// here ++ is presidance operator
+// console.log(gamecounter);
 
 
+
+setTimeout(()=>{
+    console.log('timeout 1');
+    
+}, 0)
+
+Promise.resolve().then(()=>{
+    console.log('promise 1');
+    
+})
+setTimeout(()=>{
+    console.log('timeout 2');
+    
+}, 0)
+
+Promise.resolve().then(()=>{
+    console.log('promise 2');
+    
+})
 
