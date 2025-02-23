@@ -4,7 +4,7 @@ const isUserloggedIn = true
 const temperature =41
 
 
-// if(temperature === 41){
+// if(temperature === 53){
 // console.log("Less than 50");
 // }
 // else{
@@ -29,7 +29,7 @@ const temperature =41
 
 
 
-const balance  = 449
+const balance  = 648
 
 // if (balance > 500) console.log("test"),
 // console.log("test2");
@@ -55,13 +55,22 @@ const balance  = 449
 
 const userLoggedIn = true
 const debitCard = true
+const loggedInFromEmail = true
+const loggedInFromGoogle = true
 
 if (userLoggedIn && debitCard && 2==3){
     console.log("allow to buy course");
     
 }
 
+if(loggedInFromGoogle || loggedInFromEmail){
+    console.log("user logged in");
+    
+}
 
+
+// && end operator ka matlab jitne bhi condition hai sari ki sari true honi chaiye 
+// || or operator ka matalb hai koi ek bhi condition true hai to mai run karunga
 
 
 
