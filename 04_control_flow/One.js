@@ -57,11 +57,13 @@ const userLoggedIn = true
 const debitCard = true
 const loggedInFromEmail = true
 const loggedInFromGoogle = true
-
+// end operator (&&) ka matlab hai jitne bhi sare condition hai wo sari true honi chaiye 
 if (userLoggedIn && debitCard && 2==3){
     console.log("allow to buy course");
     
 }
+
+// or operator (||) ka matlab hai koi ek bhi condition sahi ho jaye 
 
 if(loggedInFromGoogle || loggedInFromEmail){
     console.log("user logged in");

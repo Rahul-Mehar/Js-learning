@@ -6,6 +6,11 @@
 //     default:
 //         break;
 // }
+// Q what is key here?
+// Ans// Key is the value which i want to check it
+
+
+
 
 // const month = 3
 // switch (month) {

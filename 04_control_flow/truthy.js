@@ -1,5 +1,5 @@
 // const userEmail = "r@hul.in"
-const userEmail = []
+// const userEmail = []
 
 // if(userEmail){
 // console.log("got user email");
@@ -24,7 +24,7 @@ const userEmail = []
 // }
 
 
-
+// const emptyObj = {}
 // const emptyObj = {1:"Rahul", 2:"mehar"}
 
 // if(Object.keys(emptyObj).length === 0 ){
@@ -42,10 +42,10 @@ const userEmail = []
 
 // ********** Nullish Coalescing Operator (??) : null undefined ************
 
-// let val1;
+let val1;
 // val1 = 5 ?? 10 //5
 // val1 = null ?? 10 //10
-// val1 = undefined ?? null  //
+// val1 = undefined ?? null  // null
 // val1 = undefined ?? 15 //15
 // val1 = null ?? 10 ?? 20 // 10 beacuse its first value
 
