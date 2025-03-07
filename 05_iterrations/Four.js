@@ -27,8 +27,56 @@
 // Kya for in array pe kam le sktey hai 
 
 
-const programming = []
+const programming = ["js", "rb", "py", "java", "cpp"]
 
+// for (const key of programming) {
+//     console.log(key);
+    
+// }
+
+// for of loop result (yhe direact value le leta hai) 
+// js
+// rb
+// py
+// java
+// cpp
+
+
+for (const key in programming) {
+   // console.log(key);
+// for in loop result (yhe index number leta hai)
+// 0
+// 1
+// 2
+// 3
+// 4
+
+
+   // console.log(programming[key]);
+   // js
+   // rb
+   // py
+   // java
+   // cpp
+}
+
+
+
+
+
+
+// const map = new Map()
+// map.set('IN', "India")
+// map.set('USA', "United States of America")
+// map.set('Fr', "France")
+// map.set('IN', "India")
+
+// for (const key in map) {
+//    console.log(key);
+   
+// }
+
+// we can't do ittration by map here
 
 
 
